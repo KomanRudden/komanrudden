@@ -1,0 +1,10 @@
+.code {
+    background: #7e8286;
+    color: white !important;
+    padding-left: 20px;
+    line-height: 16px;
+}
+
+.code-line {
+    line-height: 0;
+}

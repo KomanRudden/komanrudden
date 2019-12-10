@@ -1,0 +1,109 @@
+{
+  "data":{
+      "video_content_one":{
+         "heading":"BMW M140i is KING",
+         "short_content":"A 1/2 mile drag race to prove once and for all the BMW M140i is the KING",
+         "content":[
+            "Bring together hot hatches",
+            "Race pairs eliminating the slowest",
+            "Beat your way to the final",
+            "Win"
+         ],
+         "video_link": "https://www.youtube.com/watch?v=KGMBTcXsaYU"
+      },
+      "video_content_two":{
+         "heading":"TWO",
+         "short_content":"A 1/2 mile drag race to prove once and for all the BMW M140i is the KING",
+         "content":[
+            "Bring together hot hatches",
+            "Race pairs eliminating the slowest",
+            "Beat your way to the final",
+            "Win"
+         ],
+         "video_link": "https://www.youtube.com/watch?v=KGMBTcXsaYU"
+      },
+      "video_content_three":{
+         "heading":"THREE",
+         "short_content":"A 1/2 mile drag race to prove once and for all the BMW M140i is the KING",
+         "content":[
+            "Bring together hot hatches",
+            "Race pairs eliminating the slowest",
+            "Beat your way to the final",
+            "Win"
+         ],
+         "video_link": "https://www.youtube.com/watch?v=KGMBTcXsaYU"
+      },            
+      "localInference":{
+         "image_url": "assets/img/coding/java-mug.png",
+         "data": [
+            {
+               "icon_path":"ion-md-code",
+               "icon_class":"text-info",
+               "title":"Hu?",
+               "content": "You’ll be able to declare variables without having to specify the associated type"
+            },
+            {
+               "icon_path":"ion-ios-sad",
+               "icon_class":"text-success",
+               "title":"This",
+               "content":"List<String> list = new ArrayList<>();"
+            },
+            {
+               "icon_path":"ion-ios-happy",
+               "icon_class":"text-success",
+               "title":"Becomes",
+               "content":"var list = new ArrayList<String>();"
+            }
+         ],
+         "note": ""
+      },
+      "agile": {
+         "image_url": "assets/img/fun/question-mark.png",
+         "data": [         
+            {
+               "icon_path":"ion-ios-infinite",
+               "icon_class":"text-info",
+               "title":"Agile",
+               "content": "Produce working software rapidly, collaborate closely with customers and do not resist change (easier said than done)"
+            },
+            {
+               "icon_path":"ion-ios-sync",
+               "icon_class":"text-success",
+               "title":"CI/CD",
+               "content":"Continuous Integration is to build and test. Continuous Delivery is to package and deploy (manually). Continuous Deployment is to package and deploy directly to PROD"
+            },
+            {
+               "icon_path":"ion-ios-contacts",
+               "icon_class":"text-success",
+               "title":"DevOps",
+               "content":"DevOps tries to avoid the negative impact of over-specialization by merging Operations and Developers"
+            }
+         ],
+         "note": "Development experience is crucial for a solid DevOps engineer in my view. The transition from Ops to DevOps over Dev to DevOps seems far more challenging."
+      },
+      "docker": {
+         "image_url": "assets/img/coding/docker.png",
+         "data": [         
+            {
+               "icon_path":"ion-md-build",
+               "icon_class":"text-info",
+               "title":"Run",
+               "content": "Build a container: 'docker build -t komanrudden .'"
+            },
+            {
+               "icon_path":"ion-ios-log-in",
+               "icon_class":"text-success",
+               "title":"Run",
+               "content":"Launch a container: 'docker run komanrudden'"
+            },
+            {
+               "icon_path":"ion-ios-log-out",
+               "icon_class":"text-success",
+               "title":"Start",
+               "content":"Start a container: 'docker start komanrudden'"
+            }
+         ],
+         "note": ""
+      }
+   }
+}

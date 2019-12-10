@@ -1,0 +1,13 @@
+<!-- Service grid -->
+<div class="col-sm-12 col-md-4 col-xl-4 m-sm-b" *ngFor="let content of serviceGridContent ? serviceGridContent.slice(0,9):[]">
+   <div class="card-line-box text-center p-4">
+      <a href="#" [routerLink]="['/', content.link]">
+         <div class="icon-wrap mb-4 {{content?.icon?.color}}">
+            <span class="iconify icon:logos:{{content?.icon?.name}} icon-inline:false iconify font-4x"></span>
+         </div>
+         <p class="mb-4 font-small">{{content?.content}}</p>
+      </a>
+   </div>
+   <br><br>
+</div>
+   

@@ -1,0 +1,34 @@
+{
+    "data":[      
+      {
+        "name":"Java 13 Features",
+        "border_color": "border-primary",
+        "category": 13
+      },
+      {
+        "name":"Java 12 Features",
+        "border_color": "border-primary",
+        "category": 12
+      },
+      {
+        "name":"Java 11 Features",
+        "border_color": "border-primary",
+        "category": 11
+      },
+      {
+        "name":"Java 10 Features",
+        "border_color": "border-primary",
+        "category": 10
+      },
+      {
+        "name":"Java 9 Features",
+        "border_color": "border-primary",
+        "category": 9
+      },      
+      {
+        "name":"Java 8 Features",
+        "border_color": "border-primary",
+        "category": 8
+      }
+    ]
+  }  

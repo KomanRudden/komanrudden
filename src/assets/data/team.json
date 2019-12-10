@@ -1,0 +1,11 @@
+{
+  "data":[
+    {
+      "image_path":"./assets/img/personal/me.jpg",
+      "name":"Koman Rudden",
+      "type":"Solutions Architect",
+      "heading": "Personal Summary",
+      "content":"Solutions Architect, Technical Team Lead & Senior Full-Stack Java Engineer proficient in all phases of the Agile SDLC including CI/CD & DevOps. Organized and detail-oriented professional with 16+ years of progressive development experience working closely alongside both technical and business colleagues. Strong passion for personal brand as a programming enthusiast."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+	"data":[
+      {
+         "icon":{
+            "name":"java",
+            "color":"text-info"
+          },
+         "heading": "Java 10 local variable type-inference",
+         "date":1575726019,
+         "user_name":"Koman",
+         "user_icon":"fa-user-circle-o",
+         "comment": [
+            "Local variable type inference allows the developer to skip the type declaration associated with local variables.",
+            "Local variables are those defined inside method definitions, initialization blocks, for-loops and other blocks like if-else.",
+            "The type is now inferred by the JDK."
+         ],
+         "content": [
+            "assets/img/coding/java10-var.jpg"
+         ],
+         "rendered": true,
+         "code": true,
+         "category": 10
+      },
+      {
+         "icon":{
+            "name":"java",
+            "color":"text-info"
+          },
+         "heading": "Java 10 time-base release versioning",
+         "date":1575726019,
+         "user_name":"Koman",
+         "user_icon":"fa-user-circle-o",
+         "comment": [
+            "1. A new release every six months",
+            "2. Support for the feature release will only last to the next release i.e. six months",
+            "3. Long-term support release will be marked as LTS. Support will be for three years",
+            "4. java -version will now contain GA date (this is a Java 11 example)"
+         ],
+         "content": [
+            "assets/img/coding/java10-version.jpg"
+         ],
+         "rendered": true,
+         "code": true,
+         "category": 10
+      },
+      {
+         "icon":{
+            "name":"java",
+            "color":"text-info"
+          },
+         "heading": "Less interesting Java 10 features",
+         "date":1575726019,
+         "user_name":"Koman",
+         "user_icon":"fa-user-circle-o",
+         "comment": [
+            "API for creating unmodifiable collections",
+            "Parallelizing the GC"
+         ],
+         "content": [],
+         "rendered": true,
+         "code": true,
+         "category": 10
+      },
+      {
+         "icon":{
+            "name":"java",
+            "color":"text-info"
+          },
+         "heading": "Java 11 local variable syntax for lambda experessions",
+         "date":1575726019,
+         "user_name":"Koman",
+         "user_icon":"fa-user-circle-o",
+         "comment": [
+            ""
+         ],
+         "content": [],
+         "rendered": true,
+         "code": true,
+         "category": 11
+      },
+      {
+         "icon":{
+            "name":"java",
+            "color":"text-info"
+          },
+         "heading": "Java 13 Switch expression",
+         "date":1575726019,
+         "user_name":"Koman",
+         "user_icon":"fa-user-circle-o",
+         "comment": [
+            "The new Switch statement with `arrow` syntax"
+         ],
+         "content": [
+            "assets/img/coding/java13-switch.jpg"            
+         ],
+         "rendered": true,
+         "code": true,
+         "category": 13
+      },
+      {
+         "icon":{
+            "name":"java",
+            "color":"text-info"
+          },
+         "heading": "Less interesting Java 13 features",
+         "date":1575726019,
+         "user_name":"Koman",
+         "user_icon":"fa-user-circle-o",
+         "comment": [
+            "API for creating unmodifiable collections",
+            "Parallelizing the GC"
+         ],
+         "content": [],
+         "rendered": true,
+         "code": true,
+         "category": 13
+      }
+	]
+}

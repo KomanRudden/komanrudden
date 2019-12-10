@@ -1,0 +1,94 @@
+{
+  "data":[
+     {
+       "icon":{
+         "name":"java",
+         "color":"text-info"
+       },
+       "title":" Java ",
+       "content":"My true technology love. Lots to learn still with lambda's and Java 11 modularity.",
+       "link":"java",
+       "btnBgClass": "btn-outline-info"
+     },
+     {
+       "icon":{
+         "name":"spring",
+         "color":"text-info"
+       },
+       "title":" Spring ",
+       "content":"Spring Boot all the way. Have you tried Spring Initializr?",
+       "link":"spring",
+       "btnBgClass": "btn-outline-info"
+     },      
+     {
+       "icon":{
+         "name":"angular-icon",
+         "color":"text-info"
+       },
+       "title":" Angular ",
+       "content":"I was surprised just how much I would love Microsoft products like Typescript and VS Code.",
+       "link":"angular",
+       "btnBgClass": "btn-outline-info"
+     },
+     {
+       "icon":{
+         "name":"docker",
+         "color":"text-info"
+       },
+       "title":" Docker ",
+       "content":"With Kubernetes and Docker I just don't know how we ever got to Production seamlessly.",
+       "link":"docker",
+       "btnBgClass": "btn-outline-info"
+     },
+     {
+       "icon":{
+         "name":"kubernetes",
+         "color":"text-info"
+       },
+       "title":" Kubernetes ",
+       "content":"Simply an outstanding product. Still figuring out the PV's & PVC's.",
+       "link":"kubernetes",
+       "btnBgClass": "btn-outline-info"
+     },
+     {
+       "icon":{
+         "name":"linux-tux",
+         "color":"text-info"
+       },
+       "title":" Linux ",
+       "content":"Why some corporates do not allow Linux on developer laptops I will never understand. Forced to use Windows 10 currently. What a truly horrific daily experience.",
+       "link":"linux",
+       "btnBgClass": "btn-outline-info"
+     },
+     {
+       "icon":{
+         "name":"azure",
+         "color":"text-info"
+       },
+       "title":" Azure ",
+       "content":"Hmmm first step into Cloud. Been an incredible journey. Watch those costs!! Really impressed with Azure DevOps.",
+       "link":"azure",
+       "btnBgClass": "btn-outline-info"
+     },
+     {
+       "icon":{
+         "name":"aws",
+         "color":"text-info"
+       },
+       "title":" AWS ",
+       "content":"Currently investigating S3, EKS, IAM, API Gateway & Lambda's. Want to start comparisons with Azure.",
+       "link":"aws",
+       "btnBgClass": "btn-outline-info"
+     },
+     {
+       "icon":{
+         "name":"google-cloud",
+         "color":"text-info"
+       },
+       "title":" Google ",
+       "content":"Too new to comment right now. Portal looks pretty cool.",
+       "link":"gcp",
+       "btnBgClass": "btn-outline-info"
+     }
+  ]
+}

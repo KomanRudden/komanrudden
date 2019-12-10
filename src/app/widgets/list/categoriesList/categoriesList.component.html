@@ -1,0 +1,13 @@
+<div class="categories-list mb-4">
+    <div class="mb-4">
+        <h4 class="sidebar-title mb-3">Category</h4>
+    </div>
+    <ul class="list list-unstyled" *ngIf="categories">
+        <li class="mb-3" *ngFor="let row of categories">
+            <a (click)="setCategory(row.category)">
+                <i class="ion-ios-arrow-forward mr-2"></i>
+                <span class="align-top">{{row?.name}}</span>
+            </a>
+        </li>
+    </ul>
+</div>

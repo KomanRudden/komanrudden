@@ -1,0 +1,140 @@
+<div class="page-main-container">
+   <!-- Service grid -->
+   <div class="service section-gap">
+      <div class="container">
+         <div class="section-title-wrapper">
+            <div class="row">
+               <div class="col-sm-12 col-md-10 mx-auto text-center">
+                  <h2>What am I currently enjoying on my developer journey?</h2>
+               </div>
+            </div>
+         </div>
+         <div class="row" angly-serviceGrid [serviceGridContent]="services"></div>
+      </div>
+   </div>    
+   <!-- Pricing grid -->
+   <div class="pricing-grid">
+      <div class="container">
+         <div class="section-title-wrapper">
+            <div class="row">
+               <div class="col-sm-12 col-md-10 mx-auto text-center">
+                  <h2 class="text-white"> Projects I am busy with at BMW </h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-12 col-md-5 col-lg-5 mb-4" *ngFor="let content of pricingContent ? pricingContent.slice(0,4):[]">
+               <div class="pricing-card border-0 pt-5 px-4 pb-4 border-rad">
+                  <span class="mb-4 {{content?.bg_color}} p-2 px-3 btn-pill text-center d-inline-block"> {{content?.home_title}} </span>
+                  <h4 class="font-1x px-2 fw-200 mb-4">{{content?.heading}} <sub class="font-sm"> </sub></h4>
+                  <ul class="list-unstyled pricing-list mb-5">
+                     <li class="mb-3" *ngFor="let pricingList of content?.pricing_list">
+                        <i class="fa {{pricingList?.icon}} mr-2"></i>
+                        {{ pricingList?.value }}
+                     </li>
+                  </ul>
+                  <a *ngIf="content.url" href="{{content.url}}" target="_blank" class="btn btn-outline-secondary btn-pill btn-lg submit-btn btn-block">Visit Site</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>   
+   <!-- Video section -->
+   <div class="chk-video-section section-gap bg-light">
+      <div class="container">
+         <div class="row" angly-chkVideo [videoContent]="videoContentOne">
+         </div>
+      </div>
+   </div>     
+   <!-- Featured section -->
+   <div class="mob-feature">
+      <div class="section-gap">
+         <div class="container">
+            <div class="section-title-wrapper">
+               <div class="row">
+                  <div class="col-sm-12 col-md-10 mx-auto text-center text-white">
+                     <h2 class="text-white"> What's the difference between Agile, CI/CD & DevOps </h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row" angly-mobileFeatured [data]="agile.data" [image_url]="agile.image_url" [note]="agile.note"></div>
+         </div>
+      </div>
+   </div>
+   <!-- Projects grid-->
+   <div class="Gallery-grid section-gap">
+      <div class="container">
+         <div class="section-title-wrapper">
+            <div class="row">
+               <div class="col-sm-12 col-md-10 mx-auto text-center">
+                  <h2> The beautiful new BMW M135i </h2>
+               </div>
+            </div>
+         </div>
+         <div class="row" angly-gallaryGrid gridClass="col-sm-12 col-md-4 mb-4" [gallaryGridContent]="carGallery"></div>
+      </div>
+   </div>          
+   <!-- Featured section -->
+   <div class="mob-feature">
+      <div class="section-gap">
+         <div class="container">
+            <div class="section-title-wrapper">
+              <div class="row">
+                  <div class="col-sm-12 col-md-10 mx-auto text-center text-white">
+                     <h2 class="text-white"> Java 10 Local Variable Type-Inference </h2>
+                  </div>
+              </div>
+            </div>
+            <div class="row" angly-mobileFeatured [data]="localInference.data" [image_url]="localInference.image_url"></div>
+         </div>
+      </div>
+   </div>
+   <!-- Video section -->
+   <div class="chk-video-section section-gap bg-light">
+      <div class="container">
+         <div class="row" angly-chkVideo [videoContent]="videoContentTwo">
+         </div>
+      </div>
+   </div>     
+   <!-- Testimonial -->
+   <div class="testimonial-section section-gap">
+      <div class="">
+         <div class="container">
+            <div angly-testimonial [testimonialContent]="testimonial"></div>
+         </div>
+      </div>
+   </div>
+   <!-- Featured section -->
+   <div class="mob-feature">
+      <div class="section-gap">
+         <div class="container">
+            <div class="section-title-wrapper">
+               <div class="row">
+                  <div class="col-sm-12 col-md-10 mx-auto text-center text-white">
+                     <h2 class="text-white"> Docker BUILD vs RUN vs START </h2>
+                     <h5 class="text-white"> Build from a Dockerfile, run the image and start the container </h5>
+                  </div>
+               </div>
+            </div>
+            <div class="row" angly-mobileFeatured [data]="docker.data" [image_url]="docker.image_url"></div>
+         </div>
+      </div>
+   </div>   
+   <!-- Video section -->
+   <div class="chk-video-section section-gap bg-light">
+      <div class="container">
+         <div class="row" angly-chkVideo [videoContent]="videoContentThree">
+         </div>
+      </div>
+   </div>   
+   <!-- Send message section -->
+   <div class="send-msg section-gap style-form">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-10 col-lg-7 mx-auto">
+                  <div angly-sendMessage></div>
+               </div>
+            </div>
+         </div>
+   </div>
+</div>

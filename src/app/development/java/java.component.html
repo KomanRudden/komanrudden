@@ -1,0 +1,41 @@
+<div class="blog-wrapper section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 mb-3">
+                <div class="blog-alternate mb-5" *ngFor="let blog of blog">
+                    <div *ngIf="blog.category === category" class="row mb-3">
+                        <div class="col-sm-12 col-md-2" style="order: 0 !important">
+                            <div class="overlay-wrap mb-2">
+                                <span class="iconify icon:logos:{{blog?.icon?.name}} icon-inline:false iconify font-5x"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-10">
+                            <div class="blog-content mb-3">
+                                <h4 class="mb-3"><a href="javascript:void(0);">{{blog?.heading}}</a></h4>
+                                <div class="blog-meta mb-2">
+                                    <i class="fa text-primary {{blog?.user_icon}} mr-2 font-lg"></i>
+                                    <span class="mr-4 font-sm align-top"> {{blog?.user_name}}</span>
+                                    <i class="fa text-primary fa-calendar-o mr-2 font-lg"></i>
+                                    <span class="font-sm align-top">{{blog?.date*1000 | date }}</span>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12">
+                            <p *ngFor="let line of blog.comment">{{line}}</p>
+                            <div *ngIf="blog.content?.length>0">
+                                <span *ngFor="let line of blog.content">
+                                    <img class="card-img img-fluid border-rad" [src]="line" width="319" height="300">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="blog-sidebar">
+                    <angly-categoriesList [categories]="categories" (category)="changeCategory($event)"></angly-categoriesList>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
