@@ -42,9 +42,10 @@
    <!-- Video section -->
    <div class="chk-video-section section-gap bg-light">
       <div class="container">
-         <div class="row" angly-chkVideo [videoContent]="videoContentOne">
+         <div class="row" video [videoContent]="videoContentOne">
          </div>
       </div>
+      <br/><br/>
    </div>     
    <!-- Featured section -->
    <div class="mob-feature">
@@ -62,7 +63,7 @@
       </div>
    </div>
    <!-- Projects grid-->
-   <div class="Gallery-grid section-gap">
+   <div class="section-gap">
       <div class="container">
          <div class="section-title-wrapper">
             <div class="row">
@@ -72,36 +73,6 @@
             </div>
          </div>
          <div class="row" angly-gallaryGrid gridClass="col-sm-12 col-md-4 mb-4" [gallaryGridContent]="carGallery"></div>
-      </div>
-   </div>          
-   <!-- Featured section -->
-   <div class="mob-feature">
-      <div class="section-gap">
-         <div class="container">
-            <div class="section-title-wrapper">
-              <div class="row">
-                  <div class="col-sm-12 col-md-10 mx-auto text-center text-white">
-                     <h2 class="text-white"> Java 10 Local Variable Type-Inference </h2>
-                  </div>
-              </div>
-            </div>
-            <div class="row" angly-mobileFeatured [data]="localInference.data" [image_url]="localInference.image_url"></div>
-         </div>
-      </div>
-   </div>
-   <!-- Video section -->
-   <div class="chk-video-section section-gap bg-light">
-      <div class="container">
-         <div class="row" angly-chkVideo [videoContent]="videoContentTwo">
-         </div>
-      </div>
-   </div>     
-   <!-- Testimonial -->
-   <div class="testimonial-section section-gap">
-      <div class="">
-         <div class="container">
-            <div angly-testimonial [testimonialContent]="testimonial"></div>
-         </div>
       </div>
    </div>
    <!-- Featured section -->
@@ -119,22 +90,5 @@
             <div class="row" angly-mobileFeatured [data]="docker.data" [image_url]="docker.image_url"></div>
          </div>
       </div>
-   </div>   
-   <!-- Video section -->
-   <div class="chk-video-section section-gap bg-light">
-      <div class="container">
-         <div class="row" angly-chkVideo [videoContent]="videoContentThree">
-         </div>
-      </div>
-   </div>   
-   <!-- Send message section -->
-   <div class="send-msg section-gap style-form">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12 col-md-10 col-lg-7 mx-auto">
-                  <div angly-sendMessage></div>
-               </div>
-            </div>
-         </div>
-   </div>
+   </div>      
 </div>

@@ -1,53 +1,20 @@
 {
   "data":[
     {
-      "title":"EBA.Next",
-      "home_title":"EBA.Next",
-      "bg_color":"bg-primary",
-      "heading": "Event Booking Application",
+      "title":"Cloud Engineer & Java Solutions Architect",
+      "home_title":"Cloud Engineer & Java Solutions Architect",
+      "bg_color":"bg-info",
+      "heading": "Cloud Engineer & Java Solutions Architect",
       "pricing_list":[
-        {"icon":"fa-check text-success", "value":"Java & Spring Boot"},
+        {"icon":"fa-check text-success", "value":"AWS S3,CloudFront,Route 53,EC2"},
+        {"icon":"fa-check text-success", "value":"AWS Lambda,IAM,API Gateway"},
+        {"icon":"fa-check text-success", "value":"Azure AKS,PostgreSQL,ACR,App Services"},
+        {"icon":"fa-check text-success", "value":"Java, JEE & Spring Boot"},
         {"icon":"fa-check text-success", "value":"Angular"},
         {"icon":"fa-check text-success", "value":"Docker & Kubernetes"},
-        {"icon":"fa-check text-success", "value":"Azure Cloud hosted"}
-      ],
-      "url":"https://mybmwevents.co.za"
-    },
-    {
-      "title":"Cloud Engineer",
-      "home_title":"AWS Cloud Engineer",
-      "bg_color":"bg-danger",
-      "heading": "AWS Cloud Engineer",
-      "pricing_list":[
-        {"icon":"fa-check text-success", "value":"S3"},
-        {"icon":"fa-check text-success", "value":"EC2"},
-        {"icon":"fa-check text-success", "value":"IAM"},
-        {"icon":"fa-check text-success", "value":"APIGEE"},
-        {"icon":"fa-check text-success", "value":"ML"}
-      ],
-      "url":""
-    },
-    {
-      "title":"BeEMEA",
-      "home_title":"BeEMEA",
-      "bg_color":"bg-success",
-      "heading": "EMEA region architecture standards",
-      "pricing_list":[
         {"icon":"fa-check text-success", "value":"Jenkins & OpenShift"},
-        {"icon":"fa-check text-success", "value":"JEE & Angular"},
         {"icon":"fa-check text-success", "value":"REST Best Practices"},
-        {"icon":"fa-check text-success", "value":"DevOps & CI/CD"}
-      ],
-      "url":""
-    },
-    {
-      "title":"DFE Switzerland",
-      "home_title":"DFE Switzerland",
-      "bg_color":"bg-warning",
-      "heading": "Switzerland Dealer Front-End",
-      "pricing_list":[
-        {"icon":"fa-check text-success", "value":"Angular"},
-        {"icon":"fa-check text-success", "value":"Java & Spring Boot"}
+        {"icon":"fa-check text-success", "value":"DevOps & CI/CD"}                
       ],
       "url":""
     }

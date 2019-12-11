@@ -1,11 +1,7 @@
-/*
- * angly video
- * Used in another components.
- */
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: '[angly-chkVideo]',
+  selector: '[video]',
   templateUrl: './chkVideo.component.html',
   styleUrls: ['./chkVideo.component.scss']
 })
