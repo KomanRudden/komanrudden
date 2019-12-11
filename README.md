@@ -1,4 +1,4 @@
-# Koman Rudden
+# Koman Rudden's personal website
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.
 
